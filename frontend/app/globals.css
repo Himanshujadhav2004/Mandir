@@ -757,23 +757,54 @@ ul { list-style: none; }
 .seva-card p { font-family: var(--font-mr-body); color: var(--ink-soft); font-size: 0.95rem; }
 
 .donate-panel {
-  background: linear-gradient(135deg, var(--maroon), var(--maroon-deep));
-  border-radius: 12px;
+  background: linear-gradient(135deg, #E8791A 0%, #D9660F 50%, #B84E07 100%);
+  border-radius: 16px;
   padding: 44px;
   display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; flex-wrap: wrap;
-  color: var(--ivory);
-  box-shadow: var(--shadow-soft);
+  color: var(--white);
+  box-shadow: 0 16px 40px rgba(232, 121, 26, 0.3);
+  border: 1px solid rgba(255, 235, 180, 0.35);
 }
-.donate-info h3 { font-family: var(--font-mr-display); color: var(--gold-light); margin-bottom: 16px; font-size: 1.3rem; }
+.donate-info h3 {
+  font-family: var(--font-mr-display);
+  color: #FFF3D6;
+  margin-bottom: 16px;
+  font-size: 1.35rem;
+}
 .donate-row {
   display: flex; gap: 40px; justify-content: space-between;
   font-family: var(--font-mr-body);
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.14);
-  max-width: 420px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+  max-width: 440px;
 }
-.donate-row span:first-child { color: rgba(255,248,236,0.7); }
-.donate-note { font-family: var(--font-body); font-style: italic; font-size: 0.85rem; margin-top: 12px; color: var(--gold-light); }
+.donate-row span:first-child { color: rgba(255, 248, 236, 0.85); font-weight: 500; }
+.donate-row span:last-child { color: var(--white); font-weight: 600; }
+.donate-note { font-family: var(--font-body); font-style: italic; font-size: 0.88rem; margin-top: 14px; color: #FFE7B3; }
+
+.btn-donate-panel {
+  background: var(--maroon-deep);
+  color: var(--gold-light);
+  border: 1.5px solid var(--gold);
+  padding: 15px 36px;
+  font-size: 1.05rem;
+  border-radius: 999px;
+  font-family: var(--font-mr-display);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 8px 24px rgba(66, 13, 23, 0.35);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-donate-panel:hover {
+  background: var(--maroon);
+  color: var(--white);
+  border-color: var(--gold-light);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(66, 13, 23, 0.45);
+}
 
 /* ===== Contact ===== */
 .contact-grid {

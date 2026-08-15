@@ -944,7 +944,7 @@ export default function Home() {
               </div>
               <p className="donate-note">{t.seva.note}</p>
             </div>
-            <a href="#contact" className="btn btn-primary btn-large">
+            <a href="#contact" className="btn btn-donate-panel">
               {t.seva.btnContact}
             </a>
           </div>
