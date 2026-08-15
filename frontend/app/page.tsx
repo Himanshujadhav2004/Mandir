@@ -406,6 +406,7 @@ export default function Home() {
               src="/assets/logo.jpg"
               alt="श्री राधाकृष्ण प्रेम मंदिर संस्थान"
               className="brand-logo"
+              decoding="async"
             />
             <span className="brand-text">
               <span className="brand-mr">श्री राधाकृष्ण प्रेम मंदिर संस्थान</span>
@@ -496,6 +497,7 @@ export default function Home() {
             src="/assets/logo-hero.jpg"
             alt="मंदिर बोधचिन्ह"
             className="hero-logo"
+            decoding="async"
           />
           <h1 className="hero-title">
             <span className="hero-title-mr">{t.hero.titleMr}</span>
@@ -576,6 +578,7 @@ export default function Home() {
                 src="/assets/logo.jpg"
                 alt="मंदिर संस्थान"
                 className="art-logo"
+                decoding="async"
               />
             </div>
             <div className="art-mala" aria-hidden="true"></div>
@@ -812,7 +815,7 @@ export default function Home() {
                 className="gallery-item shadow-sm hover:shadow-md"
                 onClick={() => setLightboxImg(img.src)}
               >
-                <img src={img.src} alt={img.title} loading="lazy" />
+                <img src={img.src} alt={img.title} loading="lazy" decoding="async" />
                 <div className="gallery-overlay">
                   <div className="gallery-overlay-icon">
                     <svg
@@ -887,6 +890,7 @@ export default function Home() {
                 src="/images/cowseva.jpg"
                 alt="गोसेवा - Gaushala Cow Seva"
                 className="gau-img"
+                decoding="async"
               />
             </div>
           </div>
