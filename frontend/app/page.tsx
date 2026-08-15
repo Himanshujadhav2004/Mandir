@@ -24,6 +24,7 @@ const translations = {
       origin: "इतिहास",
       vision: "दृष्टी",
       mandir: "मंदिर",
+      initiatives: "संकल्पना",
       structure: "निर्माण",
       gallery: "छायाचित्रे",
       gaushala: "गोशाळा",
@@ -34,22 +35,22 @@ const translations = {
     hero: {
       eyebrow: "|| श्री राधे कृष्ण ||",
       titleMr: "श्री राधाकृष्ण प्रेम मंदिर",
-      titleSub: "संस्थान",
-      address: "नामपूर, ता. शिंदखेडा, जि. धुळे — महाराष्ट्र",
+      titleSub: "संस्थान (तामथरे)",
+      address: "तामथरे (नामपूर), ता. शिंदखेडा, जि. धुळे — महाराष्ट्र",
       line: "प्रेम, भक्ती आणि सेवेचे पवित्र स्थान — निर्माणाधीन",
       btnProgress: "निर्माण प्रगती पहा",
       btnSeva: "सेवा कार्यात सहभागी व्हा",
-      status: "सध्या मंदिराचे बांधकाम सुरू आहे — आपल्या सहकार्याने भव्य मंदिर साकार होत आहे",
+      status: "सध्या मंदिराचे बांधकाम सुरू आहे — २ एकर क्षेत्रात भव्य मंदिर साकार होत आहे",
     },
     about: {
       eyebrow: "संस्थेबद्दल · About the Trust",
       title: "भक्ती, सेवा आणि समर्पणाचा संकल्प",
-      lede: "श्री राधाकृष्ण प्रेम मंदिर संस्थान ही नामपूर, ता. शिंदखेडा, जि. धुळे येथे स्थापन झालेली धार्मिक व सामाजिक न्यास संस्था आहे. राधा-कृष्णाच्या दिव्य प्रेमाचे तत्त्वज्ञान समाजापर्यंत पोहोचवणे आणि भक्ती, सेवा व संस्कार यांच्या माध्यमातून गावाला व परिसराला जोडणारे एक अध्यात्मिक केंद्र उभारणे, हा या संस्थेचा मूळ उद्देश आहे.",
-      body: "विश्वस्त मंडळ आणि गावातील भाविकांच्या अथक प्रयत्नांतून आज मंदिराचे बांधकाम प्रगतीपथावर आहे. पारंपरिक हेमाडपंती व नागर शैलीचा संगम असलेले हे मंदिर, आगामी काळात परिसरातील एक प्रमुख तीर्थक्षेत्र म्हणून नावारूपास येईल असा विश्वास आहे.",
+      lede: "श्री राधाकृष्ण प्रेम आश्रम चॅरिटेबल ट्रस्ट (नोंदणी क्र. E-819/Dhule दि. 17/08/2021) ही तामथरे (नामपूर), ता. शिंदखेडा, जि. धुळे येथे स्थापन झालेली धार्मिक व सामाजिक न्यास संस्था आहे. राधा-कृष्णाच्या दिव्य प्रेमाचे तत्त्वज्ञान समाजापर्यंत पोहोचवणे आणि भक्ती, सेवा व संस्कार यांच्या माध्यमातून गावाला व परिसराला जोडणारे एक अध्यात्मिक केंद्र उभारणे, हा या संस्थेचा मूळ उद्देश आहे.",
+      body: "दानशूर भूमीदाते श्री पुरूषोत्तम जयराम येवले (वाणी) यांनी मंदिरासाठी २ एकर जमीन दान दिली असून, विश्वस्त मंडळ आणि भाविकांच्या अथक प्रयत्नांतून आज मंदिराचे बांधकाम प्रगतीपथावर आहे. पारंपरिक हेमाडपंती व नागर शैलीचा संगम असलेले हे मंदिर, आगामी काळात परिसरातील एक प्रमुख तीर्थक्षेत्र म्हणून नावारूपास येईल असा विश्वास आहे.",
       fact1Label: "संस्था नोंदणी",
-      fact1Val: "धार्मिक व सामाजिक न्यास",
-      fact2Label: "स्थान",
-      fact2Val: "नामपूर, शिंदखेडा (धुळे)",
+      fact1Val: "रजि. क्र. E-819/Dhule (80G सवलत)",
+      fact2Label: "स्थान व भूमी",
+      fact2Val: "तामथरे/नामपूर (२ एकर जमीन)",
       fact3Label: "मुख्य दैवत",
       fact3Val: "श्री राधाकृष्ण",
     },
@@ -60,15 +61,15 @@ const translations = {
       item1Year: "सुरुवात",
       item1Title: "भक्तीची सुरुवात",
       item1Desc: "गावातील काही श्रद्धाळू भाविकांनी एकत्र येऊन नियमित हरिनाम सप्ताह व भजन सोहळे सुरू केले. हीच पुढे संस्थेच्या स्थापनेची बीजं ठरली.",
-      item2Year: "नोंदणी",
-      item2Title: "न्यासाची स्थापना",
-      item2Desc: "वाढत्या भाविकसंख्येमुळे व गावाच्या मागणीनुसार औपचारिक विश्वस्त मंडळ स्थापन करून श्री राधाकृष्ण प्रेम मंदिर संस्थानची नोंदणी करण्यात आली.",
+      item2Year: "२०२१",
+      item2Title: "न्यास नोंदणी",
+      item2Desc: "दिनांक १७/०८/२०२१ रोजी औपचारिक विश्वस्त मंडळ स्थापन करून श्री राधाकृष्ण प्रेम आश्रम चॅरिटेबल ट्रस्टची अधिकृत नोंदणी करण्यात आली.",
       item3Year: "शिलान्यास",
-      item3Title: "भूमिपूजन",
-      item3Desc: "मंदिरासाठी जागा निश्चित करून विधिवत भूमिपूजन व शिलान्यास सोहळा पार पडला, आणि प्रत्यक्ष बांधकामाला सुरुवात झाली.",
+      item3Title: "भूमिपूजन व शिलापूजन",
+      item3Desc: "दानशूर भूमीदात्यांनी दिलेल्या २ एकर जागेवर विधिवत भूमिपूजन, शिलान्यास व कटीशिला पूजन सोहळा पार पडला आणि प्रत्यक्ष बांधकामाला सुरुवात झाली.",
       item4Year: "आज",
       item4Title: "निर्माणाधीन मंदिर",
-      item4Desc: "सध्या मंदिराचे बांधकाम प्रगतीपथावर असून, भाविकांच्या देणगी व श्रमदानाच्या सहकार्याने काम वेगाने पुढे सुरू आहे.",
+      item4Desc: "सध्या मंदिराचे बांधकाम वेगाने सुरू असून, भाविकांच्या देणगी व श्रमदानाच्या सहकार्याने भव्य २ मजली मंदिर साकार होत आहे.",
     },
     vision: {
       eyebrow: "दृष्टी व ध्येय · Vision & Mission",
@@ -83,13 +84,24 @@ const translations = {
       card4Desc: "पारंपरिक स्थापत्यशैलीत, पुढील अनेक पिढ्यांसाठी टिकणारे भव्य व पवित्र मंदिर उभारणे.",
     },
     mandir: {
-      eyebrow: "मंदिर · अधिकृत माहिती",
-      title: "मंदिराविषयी",
-      lede: "श्री राधाकृष्ण प्रेम मंदिर हे पारंपरिक उत्तर भारतीय नागर व महाराष्ट्रीय हेमाडपंती स्थापत्यकलेचा संगम असलेले मंदिर आहे. गर्भगृहात श्री राधाकृष्णाच्या मनमोहक मूर्तींची प्रतिष्ठापना केली जाणार आहे.",
+      eyebrow: "मंदिर · अधिकृत माहिती व वैशिष्ट्ये",
+      title: "मंदिराविषयी व स्थापत्य वैशिष्ट्ये",
+      lede: "श्री राधाकृष्ण प्रेम मंदिर हे २ एकर क्षेत्रात उभारले जात असून, एकूण २१,९१९ चौ. फूट बांधकाम क्षेत्र असलेले २ मजली भव्य मंदिर आहे. गर्भगृहात श्री राधाकृष्णाच्या मनमोहक मूर्तींची प्रतिष्ठापना केली जाणार असून खालील भागात आधुनिक म्युझियम (कलादालन) असेल.",
       item1: "मुख्य दैवत: श्री राधाकृष्ण",
-      item2: "स्थापत्यशैली: नागर व हेमाडपंती स्थापत्य",
-      item3: "रचना: गर्भगृह, सभामंडप व भव्य शिखर",
-      item4: "स्थान: नामपूर, ता. शिंदखेडा, जि. धुळे",
+      item2: "स्थापत्य शैली: उत्तर भारतीय नागर व महाराष्ट्रीय हेमाडपंती संगम",
+      item3: "रचना: गर्भगृह, सभामंडप, २ मजली इमारत व म्युझियम कलादालन",
+      item4: "स्थान: तामथरे (नामपूर), ता. शिंदखेडा, जि. धुळे",
+      specsTitle: "मंदिराचे मुख्य वैशिष्ट्ये (Official Specs)",
+      spec1Val: "२ एकर",
+      spec1Label: "एकूण क्षेत्र",
+      spec2Val: "२१,९१९",
+      spec2Label: "निर्माण क्षेत्र (चौ.फूट)",
+      spec3Val: "१३९.८ × १००",
+      spec3Label: "लांबी × रुंदी (फूट)",
+      spec4Val: "२ मजली",
+      spec4Label: "इमारत मजले",
+      spec5Val: "७३.५ फूट",
+      spec5Label: "शिखर उंची",
       aartiTitle: "दैनंदिन आरती वेळापत्रक (नियोजित)",
       aarti1: "मंगला आरती",
       aarti1Time: "पहाटे ०६:००",
@@ -100,6 +112,26 @@ const translations = {
       aarti4: "शयन आरती",
       aarti4Time: "रात्री ०९:००",
       aartiNote: "* मंदिर पूर्ण झाल्यानंतर लागू होणारे वेळापत्रक",
+    },
+    initiatives: {
+      eyebrow: "ट्रस्टच्या संकल्पना · Future Initiatives",
+      title: "धर्म, शिक्षण व सेवेचे १३ मुख्य संकल्प",
+      lede: "श्री राधाकृष्ण प्रेम आश्रम चॅरिटेबल ट्रस्टद्वारे मंदिर उभारणीसोबतच समाजासाठी खालील १३ मुख्य प्रकल्प राबवले जात आहेत.",
+      items: [
+        { num: "१", title: "ग्रंथालय व म्युझियम", desc: "आध्यात्मिक ग्रंथसंग्रह व मंदिराच्या खालील भागात भव्य कलादालन." },
+        { num: "२", title: "आरोग्य केंद्र", desc: "ग्रामीण व गरजू लोकांसाठी वैद्यकीय मदत व आरोग्य सेवा." },
+        { num: "३", title: "यज्ञशाळा", desc: "वैदिक अनुष्ठान, होम-हवन व शांतीसाठी सुसज्ज यज्ञशाळा." },
+        { num: "४", title: "सत्संग भवन", desc: "कीर्तन, प्रवचन व धार्मिक सभेसाठी भव्य सभामंडप." },
+        { num: "५", title: "भक्त निवास", desc: "दूरवरून येणाऱ्या भाविकांसाठी अल्पदरात राहण्याची उत्तम सोय." },
+        { num: "६", title: "गो सेवा व गोशाळा", desc: "वृद्ध व आजारी गोमातेसाठी निवारा, चारा व वैद्यकीय निगा." },
+        { num: "७", title: "वारकरी गुरुकुल", desc: "वारकरी संप्रदायाचे शिक्षण व संस्कार देणारे गुरुकुल." },
+        { num: "८", title: "वृद्धाश्रम", desc: "निराधार ज्येष्ठांसाठी आदरयुक्त निवारा व सांभाळ." },
+        { num: "९", title: "अद्यावत व्यायाम शाळा", desc: "तरुणांच्या शारीरिक आरोग्यासाठी आधुनिक क्रीडा व व्यायाम केंद्र." },
+        { num: "१०", title: "अन्नक्षेत्र", desc: "नित्य महाप्रसाद व भुकेलेल्यांसाठी मोफत अन्नदान सेवा." },
+        { num: "११", title: "वस्तीगृह", desc: "शिक्षणासाठी येणाऱ्या विद्यार्थ्यांसाठी सुरक्षित वस्तीगृह." },
+        { num: "१२", title: "युवक कल्याण केंद्र", desc: "युवकांसाठी रोजगार मार्गदर्शन, कौशल्य व संस्कार वर्ग." },
+        { num: "१३", title: "गोर-गरीब शिक्षण सोय", desc: "आर्थिकदृष्ट्या दुर्बल विद्यार्थ्यांसाठी मोफत शिक्षण सहाय्य." },
+      ],
     },
     structure: {
       eyebrow: "निर्माण प्रगती · Construction Progress",
@@ -126,7 +158,7 @@ const translations = {
     gaushala: {
       eyebrow: "गोशाळा · Gaushala",
       title: "गोमातेची सेवा — पुण्यकर्माचा मार्ग",
-      lede: "श्रीकृष्णाला अत्यंत प्रिय असलेल्या गोमातेच्या सेवेसाठी मंदिर परिसरात गोशाळा उभारण्यात येत आहे. वृद्ध, आजारी व निराधार गायींना आश्रय, चारा व वैद्यकीय सेवा पुरवणे हे या गोशाळेचे मुख्य उद्दिष्ट आहे.",
+      lede: "श्रीकृष्णाला अत्यंत प्रिय असलेल्या गोमातेच्या सेवेसाठी मंदिर परिसरात गोशाळा उभारण्यात आली आहे. वृद्ध, आजारी व निराधार गायींना आश्रय, चारा व वैद्यकीय सेवा पुरवणे हे या गोशाळेचे मुख्य उद्दिष्ट आहे.",
       stat1Num: "गोसेवा",
       stat1Label: "नित्य उपक्रम",
       stat2Num: "चारा व निवारा",
@@ -141,44 +173,46 @@ const translations = {
     seva: {
       eyebrow: "सेवा व देणगी · Seva & Donation",
       title: "आपल्या सहभागाने मंदिर साकार होईल",
-      lede: "मंदिर निर्माण कार्यात प्रत्येक भाविकाचे योगदान मोलाचे आहे. खालीलपैकी सेवा-प्रकारांत सहभागी होऊ शकता.",
+      lede: "श्री राधाकृष्ण प्रेम मंदिर निर्माण कार्यात व सेवा उपक्रमात आपले योगदान मोलाचे आहे. आयकर अधिनियम १९६१ च्या कलम 80G अंतर्गत देणगीस कर सवलत उपलब्ध आहे.",
       card1Title: "मंदिर निर्माण निधी",
-      card1Desc: "शिखर, गर्भगृह व सभामंडपाच्या बांधकामासाठी थेट योगदान द्या.",
+      card1Desc: "शिखर, गर्भगृह, म्युझियम व सभामंडपाच्या बांधकामासाठी थेट योगदान द्या.",
       card2Title: "अन्नदान सेवा",
-      card2Desc: "विशेष उत्सव व एकादशी दिनी भाविकांसाठी महाप्रसादाचे आयोजन.",
+      card2Desc: "विशेष उत्सव, एकादशी व नित्य अन्नक्षेत्रासाठी महाप्रसादाचे आयोजन.",
       card3Title: "गोसेवा निधी",
-      card3Desc: "गोशाळेतील गायींचा चारा, औषधोपचार व निगेसाठी सहयोग.",
-      card4Title: "वार्षिक उत्सव सेवा",
-      card4Desc: "जन्माष्टमी, राधाष्टमी व होळी महोत्सवाच्या आयोजनात सहभाग.",
-      donateTitle: "देणगी तपशील / Bank Details",
-      trustNameLabel: "संस्थेचे नाव",
-      trustNameVal: "श्री राधाकृष्ण प्रेम मंदिर संस्थान",
-      bankLabel: "बँक",
-      bankVal: "[स्थानिक बँक नाव]",
+      card3Desc: "गोशाळेतील गायींचा चारा, औषधोपचार व निगेसाठी सहकार्य.",
+      card4Title: "८०G कर सवलत",
+      card4Desc: "ट्रस्टला दिलेल्या सर्व देणग्यांवर आयकर कलम 80G अंतर्गत सवलत उपलब्ध.",
+      donateTitle: "अधिकृत बँक खाते तपशील / Official Bank Details",
+      trustNameLabel: "ट्रस्टचे नाव",
+      trustNameVal: "श्री राधाकृष्ण प्रेम आश्रम चॅरिटेबल ट्रस्ट, तामथरे",
+      bankLabel: "बँक नाव",
+      bankVal: "CENTRAL BANK OF INDIA (सेंट्रल बँक ऑफ इंडिया)",
       accLabel: "खाते क्रमांक",
-      accVal: "[बँक खाते क्रमांक]",
+      accVal: "5236840945",
       ifscLabel: "IFSC कोड",
-      ifscVal: "[IFSC कोड]",
-      upiLabel: "UPI आयडी",
-      upiVal: "[UPI ID / QR Code]",
-      note: "* देणगी पावतीसाठी कृपया देणगी दिल्यानंतर संपर्क साधावा.",
+      ifscVal: "CBIN0281752",
+      regLabel: "ट्रस्ट नोंदणी",
+      regVal: "E-819/Dhule (दि. 17/08/2021) | PAN: ABDTS2161E",
+      taxLabel: "80G कर सवलत Reg No.",
+      taxVal: "ABDTS2161EF20221 (80G Tax Exemption)",
+      note: "* देणगी दिल्यानंतर अधिकृत पावतीसाठी कृपया संपर्क साधावा. 80G पावती उपलब्ध.",
       btnContact: "देणगीसाठी संपर्क साधा",
     },
     contact: {
-      eyebrow: "संपर्क · Contact & Info",
-      title: "आमच्याशी संपर्क साधा",
-      card1Title: "पत्ता",
-      card1Desc: "श्री राधाकृष्ण प्रेम मंदिर संस्थान\nनामपूर, ता. शिंदखेडा\nजि. धुळे, महाराष्ट्र",
-      card2Title: "दूरध्वनी / संपर्क",
-      card2Desc: "+91 [संपर्क क्रमांक]\nनामपूर, शिंदखेडा (धुळे)",
-      card3Title: "ईमेल",
-      card3Desc: "contact@radhakrishnamandir.org",
-      card4Title: "विश्वस्त मंडळ",
-      card4Desc: "श्री राधाकृष्ण प्रेम मंदिर संस्थान न्यास\nनामपूर (शिंदखेडा)",
-      mapText: "📍 श्री राधाकृष्ण प्रेम मंदिर संस्थान, नामपूर, ता. शिंदखेडा, जि. धुळे",
+      eyebrow: "संपर्क व विश्वस्त मंडळ · Contact & Info",
+      title: "आमच्याशी संपर्क साधून सेवाकार्यात जोडा",
+      card1Title: "पत्ता (Address)",
+      card1Desc: "श्री राधाकृष्ण प्रेम मंदिर संस्थान\nतामथरे (नामपूर), ता. शिंदखेडा\nजि. धुळे, महाराष्ट्र — ४२५४०८",
+      card2Title: "दूरध्वनी (Phone)",
+      card2Desc: "+91 9923417082\n+91 8511005554",
+      card3Title: "मुख्य पदाधिकारी",
+      card3Desc: "संस्थापक अध्यक्ष: ह.भ.प. महेंद्र महाराज\nउपाध्यक्ष: नानासाहेब देवराम पाटील\nसचिव: सतिष पुरूषोत्तम येवले\nखजिनदार: पुरूषोत्तम जयराम येवले",
+      card4Title: "बांधकाम समिती",
+      card4Desc: "अध्यक्ष: रवींद्रसिंग भटेसिंग राजपूत (सुरत)\nउपाध्यक्ष: राजर्षि कुँवर राजेंद्रसिंह नरूका",
+      mapText: "📍 श्री राधाकृष्ण प्रेम मंदिर संस्थान, तामथरे (नामपूर), ता. शिंदखेडा, जि. धुळे",
     },
     footer: {
-      sub: "नामपूर, ता. शिंदखेडा, जि. धुळे — महाराष्ट्र",
+      sub: "तामथरे (नामपूर), ता. शिंदखेडा, जि. धुळे — महाराष्ट्र",
       rights: "सर्व हक्क राखीव.",
     },
   },
@@ -188,6 +222,7 @@ const translations = {
       origin: "History",
       vision: "Vision",
       mandir: "Temple",
+      initiatives: "Initiatives",
       structure: "Construction",
       gallery: "Gallery",
       gaushala: "Gaushala",
@@ -198,41 +233,41 @@ const translations = {
     hero: {
       eyebrow: "|| Shri Radhe Krishna ||",
       titleMr: "Shri Radhakrishna Prem Mandir",
-      titleSub: "Sansthan",
-      address: "Nampoor, Tal. Shindkheda, Dist. Dhule — Maharashtra",
+      titleSub: "Sansthan (Tamathare)",
+      address: "Tamathare (Nampoor), Tal. Shindkheda, Dist. Dhule — Maharashtra",
       line: "A Sacred Abode of Love, Devotion & Service — Under Construction",
       btnProgress: "View Construction Progress",
       btnSeva: "Participate in Seva",
-      status: "Temple construction is currently in progress — Building a divine shrine with your support",
+      status: "Temple construction is in progress — Erecting a grand shrine across 2 Acres",
     },
     about: {
       eyebrow: "About the Trust · संस्थेबद्दल",
       title: "Pledge of Devotion, Service & Dedication",
-      lede: "Shri Radhakrishna Prem Mandir Sansthan is a religious and social trust registered in Nampoor, Shindkheda Taluka, Dhule District. The core goal of this organization is to spread the philosophy of divine love of Radha-Krishna and establish a spiritual center connecting the village and surrounding regions.",
-      body: "Through the relentless efforts of the trust members and village devotees, temple construction is progressing steadily. Blending traditional Hemadpanti and Nagara architectural styles, this temple is envisioned to become a prominent pilgrimage shrine in the region.",
+      lede: "Shri Radhakrishna Prem Ashram Charitable Trust (Reg. No. E-819/Dhule dated 17/08/2021) is a religious and social trust located in Tamathare (Nampoor), Shindkheda Taluka, Dhule District. The core mission is to spread the teachings of Radha-Krishna and establish a spiritual haven connecting the community.",
+      body: "Generous land donor Shri Purushottam Jairam Yewale donated 2 Acres of land for the temple. Blending traditional Hemadpanti and Nagara architectural styles, the temple is being built dynamically into a premier pilgrimage shrine.",
       fact1Label: "Trust Registration",
-      fact1Val: "Religious & Social Trust",
-      fact2Label: "Location",
-      fact2Val: "Nampoor, Shindkheda (Dhule)",
+      fact1Val: "Reg. E-819/Dhule (80G Eligible)",
+      fact2Label: "Land & Location",
+      fact2Val: "Tamathare/Nampoor (2 Acres)",
       fact3Label: "Deity",
       fact3Val: "Shri Radhakrishna",
     },
     origin: {
       eyebrow: "Our Origin · मूळ इतिहास",
-      title: "From a Seed of Faith to a Sacred Banyan Tree",
-      lede: "A journey that began with a modest devotional gathering is now growing into a center of faith for thousands of devotees.",
-      item1Year: "Beginning",
+      title: "From a Seed of Faith to a Sacred Shrine",
+      lede: "A spiritual journey that started with a modest devotional assembly is now rising into a center of faith for thousands of devotees.",
+      item1Year: "Inception",
       item1Title: "Devotional Inception",
-      item1Desc: "A small group of devout villagers gathered regularly for Harinam Saptah and Bhajan assemblies, sowing the seeds for the foundation of the trust.",
-      item2Year: "Registration",
-      item2Title: "Trust Formation",
-      item2Desc: "Responding to growing participation, an official board of trustees was formed and Shri Radhakrishna Prem Mandir Sansthan was formally registered.",
+      item1Desc: "Devout villagers gathered regularly for Harinam Saptah and Bhajan assemblies, laying the foundation for the trust.",
+      item2Year: "2021",
+      item2Title: "Trust Registration",
+      item2Desc: "On 17/08/2021, the board of trustees officially registered Shri Radhakrishna Prem Ashram Charitable Trust.",
       item3Year: "Foundation",
-      item3Title: "Bhoomi Pujan",
-      item3Desc: "Land was finalized and solemn foundation-laying ceremonies (Bhoomi Pujan & Shilanyas) were performed, marking the start of construction.",
+      item3Title: "Bhoomi & Shila Pujan",
+      item3Desc: "On 2 Acres donated land, formal Bhoomi Pujan, Shilanyas, and Katishila Pujan ceremonies were solemnly celebrated.",
       item4Year: "Present",
       item4Title: "Under Construction",
-      item4Desc: "Construction is progressing dynamically with generous contributions and voluntary labor (Shramdaan) from devotees.",
+      item4Desc: "Construction is progressing rapidly with voluntary labor (Shramdaan) and generous donations from devotees.",
     },
     vision: {
       eyebrow: "Vision & Mission · दृष्टी व ध्येय",
@@ -242,18 +277,29 @@ const translations = {
       card2Title: "Cultural & Value Center",
       card2Desc: "Nurturing values in young minds through Keertan, Pravachan, Bhagwat Saptah, and youth character workshops.",
       card3Title: "Selfless Service",
-      card3Desc: "Serving society through Mahaprasad (food distribution), Gaushala cow care, and community aid.",
+      card3Desc: "Serving society through Mahaprasad (free meals), Gaushala cow care, and community aid.",
       card4Title: "Grand Heritage Temple",
       card4Desc: "Erecting an enduring, magnificent temple in traditional architecture for generations to come.",
     },
     mandir: {
-      eyebrow: "Temple Info · मंदिर अधिकृत माहिती",
-      title: "About the Temple",
-      lede: "Shri Radhakrishna Prem Mandir combines North Indian Nagara and Maharashtrian Hemadpanti architectural styles. The sanctum sanctorum will house divine idols of Shri Radhakrishna.",
+      eyebrow: "Temple Specs · अधिकृत माहिती व वैशिष्ट्ये",
+      title: "Architecture & Structural Specifications",
+      lede: "Shri Radhakrishna Prem Mandir spans across 2 Acres with a total built-up area of 21,919 Sq. Ft. across 2 storeys, featuring a grand sanctum sanctorum and a lower-level Museum & Cultural Gallery.",
       item1: "Primary Deity: Shri Radhakrishna",
-      item2: "Architecture: Nagara & Hemadpanti Style",
-      item3: "Structure: Garbhagriha, Sabha Mandap & Grand Shikhara",
-      item4: "Location: Nampoor, Tal. Shindkheda, Dist. Dhule",
+      item2: "Architecture: Nagara & Hemadpanti Fusion",
+      item3: "Structure: Garbhagriha, Sabha Mandap, 2-Storey & Museum",
+      item4: "Location: Tamathare (Nampoor), Tal. Shindkheda, Dist. Dhule",
+      specsTitle: "Official Temple Specifications",
+      spec1Val: "2 Acres",
+      spec1Label: "Campus Area",
+      spec2Val: "21,919",
+      spec2Label: "Built-up (Sq. Ft.)",
+      spec3Val: "139.8 × 100",
+      spec3Label: "Length × Width (Ft.)",
+      spec4Val: "2 Storey",
+      spec4Label: "Building Height",
+      spec5Val: "73.5 Ft.",
+      spec5Label: "Shikhara Height",
       aartiTitle: "Daily Aarti Schedule (Proposed)",
       aarti1: "Mangala Aarti",
       aarti1Time: "06:00 AM",
@@ -264,6 +310,26 @@ const translations = {
       aarti4: "Shayan Aarti",
       aarti4Time: "09:00 PM",
       aartiNote: "* Schedule applicable upon completion of temple construction",
+    },
+    initiatives: {
+      eyebrow: "Future Initiatives · संकल्पना",
+      title: "13 Core Social & Spiritual Initiatives",
+      lede: "Alongside temple construction, Shri Radhakrishna Prem Ashram Charitable Trust is executing 13 major welfare projects.",
+      items: [
+        { num: "1", title: "Library & Museum", desc: "Spiritual archives and lower-deck heritage museum gallery." },
+        { num: "2", title: "Healthcare Center", desc: "Medical aid and health services for rural communities." },
+        { num: "3", title: "Yagnashala", desc: "Equipped hall for Vedic rituals, Yagna, and peace prayers." },
+        { num: "4", title: "Satsang Bhavan", desc: "Grand assembly hall for Keertan, discourses, and assemblies." },
+        { num: "5", title: "Bhakta Niwas", desc: "Affordable accommodation for visiting pilgrims." },
+        { num: "6", title: "Gaushala & Cow Care", desc: "Shelter, feed, and medical care for elder and needy cows." },
+        { num: "7", title: "Warkari Gurukul", desc: "Traditional school instilling Warkari values and education." },
+        { num: "8", title: "Old Age Home", desc: "Dignified shelter and care for senior citizens." },
+        { num: "9", title: "Modern Gymnasium", desc: "Fitness and sports facility for youth well-being." },
+        { num: "10", title: "Annakshetra", desc: "Free meal distribution for devotees and the needy." },
+        { num: "11", title: "Student Hostel", desc: "Safe residential hostel for students pursuing education." },
+        { num: "12", title: "Youth Welfare Center", desc: "Skill development and career guidance for youth." },
+        { num: "13", title: "Free Education Support", desc: "Financial educational aid for underprivileged students." },
+      ],
     },
     structure: {
       eyebrow: "Construction Progress · निर्माण प्रगती",
@@ -290,7 +356,7 @@ const translations = {
     gaushala: {
       eyebrow: "Gaushala · गोशाळा",
       title: "Service to Mother Cow — Path of Virtue",
-      lede: "A dedicated Gaushala is being established within the temple precinct to care for cows cherished by Lord Krishna. It aims to provide shelter, fodder, and medical care to elder and needy cows.",
+      lede: "A dedicated Gaushala is established within the temple precinct to care for cows cherished by Lord Krishna. It provides shelter, fodder, and medical care to elder cows.",
       stat1Num: "Cow Care",
       stat1Label: "Daily Rituals",
       stat2Num: "Fodder & Shelter",
@@ -305,44 +371,46 @@ const translations = {
     seva: {
       eyebrow: "Seva & Donation · सेवा व देणगी",
       title: "Build the Temple with Your Contribution",
-      lede: "Every devotee's contribution plays a crucial role in constructing the temple. Choose your preferred form of service.",
+      lede: "Every devotee's contribution plays a crucial role in constructing the temple. All donations are tax-exempt under Section 80G of the Income Tax Act 1961.",
       card1Title: "Temple Construction Fund",
-      card1Desc: "Directly support the construction of the Shikhara, Sanctum, and Sabha Mandap.",
+      card1Desc: "Directly support the construction of the Shikhara, Sanctum, Museum, and Sabha Mandap.",
       card2Title: "Annadaan Seva",
       card2Desc: "Sponsor Mahaprasad distribution for devotees on auspicious festivals and Ekadashi.",
       card3Title: "Gaushala Seva Fund",
       card3Desc: "Contribute towards cow feed, medical treatment, and shelter maintenance.",
-      card4Title: "Annual Festival Seva",
-      card4Desc: "Participate in hosting Janmashtami, Radhashtami, and Holi celebrations.",
-      donateTitle: "Donation Details / Bank Details",
+      card4Title: "80G Tax Benefit",
+      card4Desc: "All donations made to the trust are eligible for tax deduction under Section 80G.",
+      donateTitle: "Official Bank Account Details",
       trustNameLabel: "Trust Name",
-      trustNameVal: "Shri Radhakrishna Prem Mandir Sansthan",
+      trustNameVal: "Shri Radhakrishna Prem Ashram Charitable Trust, Tamathare",
       bankLabel: "Bank Name",
-      bankVal: "[Local Bank Name]",
+      bankVal: "CENTRAL BANK OF INDIA",
       accLabel: "Account Number",
-      accVal: "[Bank Account Number]",
+      accVal: "5236840945",
       ifscLabel: "IFSC Code",
-      ifscVal: "[IFSC Code]",
-      upiLabel: "UPI ID / QR",
-      upiVal: "[UPI ID / QR Code]",
-      note: "* Please contact us after donating to receive your official donation receipt.",
+      ifscVal: "CBIN0281752",
+      regLabel: "Trust Registration",
+      regVal: "E-819/Dhule (17/08/2021) | PAN: ABDTS2161E",
+      taxLabel: "80G Tax Exemption Reg No.",
+      taxVal: "ABDTS2161EF20221 (80G Tax Exemption)",
+      note: "* Please contact us after donating to receive your official 80G tax receipt.",
       btnContact: "Contact for Donation",
     },
     contact: {
       eyebrow: "Contact & Info · संपर्क",
       title: "Get in Touch with Us",
       card1Title: "Address",
-      card1Desc: "Shri Radhakrishna Prem Mandir Sansthan\nNampoor, Tal. Shindkheda\nDist. Dhule, Maharashtra",
-      card2Title: "Phone / Contact",
-      card2Desc: "+91 [Contact Number]\nNampoor, Shindkheda (Dhule)",
-      card3Title: "Email",
-      card3Desc: "contact@radhakrishnamandir.org",
-      card4Title: "Trust Board",
-      card4Desc: "Shri Radhakrishna Prem Mandir Sansthan Trust\nNampoor (Shindkheda)",
-      mapText: "📍 Shri Radhakrishna Prem Mandir Sansthan, Nampoor, Tal. Shindkheda, Dist. Dhule",
+      card1Desc: "Shri Radhakrishna Prem Mandir Sansthan\nTamathare (Nampoor), Tal. Shindkheda\nDist. Dhule, Maharashtra — 425408",
+      card2Title: "Phone Contacts",
+      card2Desc: "+91 9923417082\n+91 8511005554",
+      card3Title: "Trust Executive Committee",
+      card3Desc: "Founder President: H.B.P. Mahendra Maharaj\nVice President: Nanasaheb Devram Patil\nSecretary: Satish Purushottam Yewale\nTreasurer: Purushottam Jairam Yewale",
+      card4Title: "Construction Committee",
+      card4Desc: "Chairman: Ravindrasingh Bhatesingh Rajput (Surat)\nVice Chairman: Rajarshi Kunwar Rajendrasingh Naruka",
+      mapText: "📍 Shri Radhakrishna Prem Mandir Sansthan, Tamathare (Nampoor), Tal. Shindkheda, Dist. Dhule",
     },
     footer: {
-      sub: "Nampoor, Tal. Shindkheda, Dist. Dhule — Maharashtra",
+      sub: "Tamathare (Nampoor), Tal. Shindkheda, Dist. Dhule — Maharashtra",
       rights: "All Rights Reserved.",
     },
   },
@@ -355,6 +423,12 @@ export default function Home() {
   const [lightboxImg, setLightboxImg] = useState<string | null>(null);
   const [progressAnimated, setProgressAnimated] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [archSlide, setArchSlide] = useState(0);
+  const ARCH_SLIDES = [
+    { src: "/images/mandir-specs.png",          captionMr: "श्री राधाकृष्ण प्रेम मंदिराचे मुख्य वैशिष्ट्ये — आतील व बाहेरील कलाकृती", captionEn: "Shri Radhakrishna Prem Mandir — Interior & Exterior Dome Art" },
+    { src: "/images/mandir-3d-elevation.jpg",   captionMr: "श्री राधाकृष्ण प्रेम मंदिराचा ३डी एलीव्हेशन — चारही बाजू",              captionEn: "Shri Radhakrishna Prem Mandir — 3D Elevation All Sides" },
+    { src: "/images/mandir-museum-interior.jpg",captionMr: "मंदिराच्या खालील भागातील म्युझियम व आतील कलाकृती",                      captionEn: "Lower-Level Heritage Museum & Interior Artwork" },
+  ];
 
   const progressRef = useRef<HTMLDivElement>(null);
   const t = translations[lang];
@@ -422,6 +496,9 @@ export default function Home() {
             </a>
             <a href="#mandir" onClick={() => setNavOpen(false)}>
               {t.nav.mandir}
+            </a>
+            <a href="#initiatives" onClick={() => setNavOpen(false)}>
+              {t.nav.initiatives}
             </a>
             <a href="#gaushala" onClick={() => setNavOpen(false)}>
               {t.nav.gaushala}
@@ -590,7 +667,43 @@ export default function Home() {
         <span>|| श्री ||</span>
       </div>
 
+      {/* ===== FOUNDERS / FOUNDING MEMBERS ===== */}
+      <section className="section founders-section" id="founders">
+        <div className="container">
+          <p className="eyebrow eyebrow-center">
+            {lang === "mr" ? "मार्गदर्शक व संस्थापक · Our Founders" : "Spiritual Gurus & Founding Members"}
+          </p>
+          <h2 className="section-title center">
+            {lang === "mr" ? "श्रद्धास्थान व संस्थापक मंडळ" : "Revered Gurus & Founding Committee"}
+          </h2>
+          <p className="lede center">
+            {lang === "mr"
+              ? "श्री राधाकृष्ण प्रेम मंदिर संस्थानाच्या उभारणीमागे या दिग्गज मार्गदर्शकांचे आशीर्वाद व संस्थापक सदस्यांचे अपरंपार योगदान आहे."
+              : "The blessed guidance of revered spiritual gurus and the tireless contributions of founding members have made this temple possible."}
+          </p>
+
+          {/* Full Founders Composite Image */}
+          <div style={{
+            margin: "36px auto 48px",
+            maxWidth: "860px",
+            borderRadius: "22px",
+            overflow: "hidden",
+            border: "4px solid var(--gold)",
+            boxShadow: "0 12px 48px rgba(200,130,0,0.22)",
+            background: "linear-gradient(135deg, #FFF3C4, #FFE082)",
+          }}>
+            <img
+              src="/images/founders.png"
+              alt="श्री राधाकृष्ण प्रेम मंदिर संस्थान — संस्थापक मंडळ"
+              style={{ width: "100%", height: "auto", display: "block" }}
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* ===== ORIGIN / HISTORY ===== */}
+
       <section className="section section-tinted" id="origin">
         <div className="container">
           <p className="eyebrow eyebrow-center">{t.origin.eyebrow}</p>
@@ -685,54 +798,117 @@ export default function Home() {
         <span>|| राधे कृष्ण ||</span>
       </div>
 
-      {/* ===== MANDIR - OFFICIAL INFO ===== */}
+      {/* ===== MANDIR - OFFICIAL INFO & SPECS ===== */}
       <section className="section section-tinted" id="mandir">
-        <div className="container two-col reverse">
-          <div className="col-art">
-            <div className="deity-frame">
-              <div className="deity-arch">
-                <span className="deity-names">श्री राधाकृष्ण</span>
+        <div className="container">
+          <p className="eyebrow eyebrow-center">{t.mandir.eyebrow}</p>
+          <h2 className="section-title center">{t.mandir.title}</h2>
+          <p className="lede center">{t.mandir.lede}</p>
+
+          {/* ===== ARCHITECTURE SLIDESHOW (BELOW HEADING) ===== */}
+          <div style={{ marginTop: "28px", marginBottom: "40px" }}>
+            <div className="arch-slideshow">
+              <div
+                className="arch-slides-track"
+                style={{ transform: `translateX(-${archSlide * 100}%)` }}
+              >
+                {ARCH_SLIDES.map((slide, i) => (
+                  <div className="arch-slide" key={i}>
+                    <img src={slide.src} alt={slide.captionEn} loading="lazy" decoding="async" />
+                    <div className="arch-slide-caption">
+                      {lang === "mr" ? slide.captionMr : slide.captionEn}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Prev button */}
+              <button
+                className="arch-btn prev"
+                onClick={() => setArchSlide(s => (s - 1 + ARCH_SLIDES.length) % ARCH_SLIDES.length)}
+                aria-label="Previous slide"
+              >
+                &#8592;
+              </button>
+
+              {/* Next button */}
+              <button
+                className="arch-btn next"
+                onClick={() => setArchSlide(s => (s + 1) % ARCH_SLIDES.length)}
+                aria-label="Next slide"
+              >
+                &#8594;
+              </button>
+            </div>
+
+            {/* Dots */}
+            <div className="arch-dots">
+              {ARCH_SLIDES.map((_, i) => (
+                <button
+                  key={i}
+                  className={`arch-dot ${archSlide === i ? "active" : ""}`}
+                  onClick={() => setArchSlide(i)}
+                  aria-label={`Slide ${i + 1}`}
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* OFFICIAL MANDIR SPECS GRID */}
+          <div className="mb-10">
+            <h3 className="text-center text-xl font-bold text-[var(--maroon-deep)] mb-4 font-serif">
+              {t.mandir.specsTitle}
+            </h3>
+            <div className="specs-grid">
+              <div className="spec-card">
+                <span className="spec-val">{t.mandir.spec1Val}</span>
+                <span className="spec-label">{t.mandir.spec1Label}</span>
+              </div>
+              <div className="spec-card">
+                <span className="spec-val">{t.mandir.spec2Val}</span>
+                <span className="spec-label">{t.mandir.spec2Label}</span>
+              </div>
+              <div className="spec-card">
+                <span className="spec-val">{t.mandir.spec3Val}</span>
+                <span className="spec-label">{t.mandir.spec3Label}</span>
+              </div>
+              <div className="spec-card">
+                <span className="spec-val">{t.mandir.spec4Val}</span>
+                <span className="spec-label">{t.mandir.spec4Label}</span>
+              </div>
+              <div className="spec-card">
+                <span className="spec-val">{t.mandir.spec5Val}</span>
+                <span className="spec-label">{t.mandir.spec5Label}</span>
               </div>
             </div>
           </div>
-          <div className="col-text">
-            <p className="eyebrow eyebrow-left">{t.mandir.eyebrow}</p>
-            <h2 className="section-title">{t.mandir.title}</h2>
-            <p className="lede">{t.mandir.lede}</p>
 
-            <ul className="info-list">
-              <li>{t.mandir.item1}</li>
-              <li>{t.mandir.item2}</li>
-              <li>{t.mandir.item3}</li>
-              <li>{t.mandir.item4}</li>
-            </ul>
+        </div>
+      </section>
 
-            <div className="aarti-card">
-              <h4>{t.mandir.aartiTitle}</h4>
-              <div className="aarti-row">
-                <span>{t.mandir.aarti1}</span>
-                <span>{t.mandir.aarti1Time}</span>
+      {/* ===== 13 TRUST INITIATIVES SECTION ===== */}
+      <section className="section" id="initiatives">
+        <div className="container">
+          <p className="eyebrow eyebrow-center">{t.initiatives.eyebrow}</p>
+          <h2 className="section-title center">{t.initiatives.title}</h2>
+          <p className="lede center">{t.initiatives.lede}</p>
+
+          <div className="initiatives-grid">
+            {t.initiatives.items.map((item, idx) => (
+              <div className="initiative-card" key={idx}>
+                <div className="initiative-num">{item.num}</div>
+                <div className="initiative-text">
+                  <h4>{item.title}</h4>
+                  <p>{item.desc}</p>
+                </div>
               </div>
-              <div className="aarti-row">
-                <span>{t.mandir.aarti2}</span>
-                <span>{t.mandir.aarti2Time}</span>
-              </div>
-              <div className="aarti-row">
-                <span>{t.mandir.aarti3}</span>
-                <span>{t.mandir.aarti3Time}</span>
-              </div>
-              <div className="aarti-row">
-                <span>{t.mandir.aarti4}</span>
-                <span>{t.mandir.aarti4Time}</span>
-              </div>
-              <p className="aarti-note">{t.mandir.aartiNote}</p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* ===== STRUCTURE / CONSTRUCTION PROGRESS ===== */}
-      <section className="section" id="structure" ref={progressRef}>
+      <section className="section section-tinted" id="structure" ref={progressRef}>
         <div className="container">
           <p className="eyebrow eyebrow-center">{t.structure.eyebrow}</p>
           <h2 className="section-title center">{t.structure.title}</h2>
@@ -785,7 +961,7 @@ export default function Home() {
       </section>
 
       {/* ===== PHOTO GALLERY SECTION ===== */}
-      <section className="section section-tinted" id="gallery">
+      <section className="section" id="gallery">
         <div className="container">
           <p className="eyebrow eyebrow-center">{t.gallery.eyebrow}</p>
           <h2 className="section-title center">{t.gallery.title}</h2>
@@ -855,7 +1031,7 @@ export default function Home() {
       )}
 
       {/* ===== GAUSHALA ===== */}
-      <section className="section" id="gaushala">
+      <section className="section section-tinted" id="gaushala">
         <div className="container two-col gau-two-col">
           <div className="col-text">
             <p className="eyebrow eyebrow-left">{t.gaushala.eyebrow}</p>
@@ -898,7 +1074,7 @@ export default function Home() {
       </section>
 
       {/* ===== SEVA / DONATION ===== */}
-      <section className="section section-tinted" id="seva">
+      <section className="section" id="seva">
         <div className="container">
           <p className="eyebrow eyebrow-center">{t.seva.eyebrow}</p>
           <h2 className="section-title center">{t.seva.title}</h2>
@@ -943,8 +1119,12 @@ export default function Home() {
                 <span>{t.seva.ifscVal}</span>
               </div>
               <div className="donate-row">
-                <span>{t.seva.upiLabel}</span>
-                <span>{t.seva.upiVal}</span>
+                <span>{t.seva.regLabel}</span>
+                <span>{t.seva.regVal}</span>
+              </div>
+              <div className="donate-row">
+                <span>{t.seva.taxLabel}</span>
+                <span>{t.seva.taxVal}</span>
               </div>
               <p className="donate-note">{t.seva.note}</p>
             </div>
