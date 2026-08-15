@@ -960,8 +960,8 @@ export default function Home() {
       {/* ===== CONTACT ===== */}
       <section className="section section-dark" id="contact">
         <div className="container">
-          <p className="eyebrow eyebrow-center light">{t.contact.eyebrow}</p>
-          <h2 className="section-title center light">{t.contact.title}</h2>
+          <p className="eyebrow eyebrow-center">{t.contact.eyebrow}</p>
+          <h2 className="section-title center">{t.contact.title}</h2>
 
           <div className="contact-grid">
             <div className="contact-card">

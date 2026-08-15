@@ -381,8 +381,11 @@ ul { list-style: none; }
 .section { padding: 96px 0; }
 .section-tinted { background: var(--cream); }
 .section-dark {
-  background: linear-gradient(160deg, #3D0C15 0%, #5A1521 60%, #47111A 100%);
-  color: var(--ivory);
+  position: relative;
+  background:
+    radial-gradient(ellipse at 50% -10%, rgba(232,121,26,0.18), transparent 60%),
+    linear-gradient(180deg, #FFF8EC 0%, #FDEFD3 55%, #F7E3B8 100%);
+  color: var(--ink);
   padding-bottom: 60px;
 }
 
@@ -811,22 +814,44 @@ ul { list-style: none; }
   display: grid; grid-template-columns: repeat(4,1fr); gap: 24px; margin-top: 48px;
 }
 .contact-card {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(232,203,122,0.25);
-  border-radius: var(--radius);
-  padding: 26px 22px;
+  background: var(--white);
+  border: 1px solid var(--cream-dark);
+  border-radius: 12px;
+  padding: 28px 24px;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.contact-card h4 { font-family: var(--font-mr-display); color: var(--gold-light); margin-bottom: 10px; font-size: 1.05rem; }
-.contact-card p { font-family: var(--font-mr-body); color: rgba(255,248,236,0.85); font-size: 0.95rem; line-height: 1.8; }
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft);
+  border-color: var(--gold);
+}
+.contact-card h4 {
+  font-family: var(--font-mr-display);
+  color: var(--maroon-deep);
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.contact-card p {
+  font-family: var(--font-mr-body);
+  color: var(--ink-soft);
+  font-size: 0.96rem;
+  line-height: 1.8;
+}
 
 .map-placeholder {
   margin-top: 46px;
   height: 220px;
-  border-radius: 10px;
-  border: 1px dashed rgba(232,203,122,0.4);
+  border-radius: 12px;
+  background: var(--white);
+  border: 2px dashed var(--gold);
   display: flex; align-items: center; justify-content: center;
-  font-family: var(--font-mr-body);
-  color: rgba(255,248,236,0.6);
+  font-family: var(--font-mr-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--maroon-deep);
+  box-shadow: var(--shadow-card);
   text-align: center;
   padding: 20px;
 }
