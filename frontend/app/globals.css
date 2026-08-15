@@ -876,8 +876,9 @@ ul { list-style: none; }
 @media (max-width: 980px) {
   .main-nav { display: none; }
   .nav-toggle { display: flex; }
-  .two-col, .two-col.reverse { grid-template-columns: 1fr; gap: 40px; }
+  .two-col, .two-col.reverse, .two-col.gau-two-col { grid-template-columns: 1fr !important; gap: 40px; }
   .two-col.reverse .col-art, .two-col.reverse .col-text { order: initial; }
+  .gau-frame { max-width: 100%; }
   .vision-grid { grid-template-columns: repeat(2,1fr); }
   .seva-grid { grid-template-columns: repeat(2,1fr); }
   .contact-grid { grid-template-columns: repeat(2,1fr); }

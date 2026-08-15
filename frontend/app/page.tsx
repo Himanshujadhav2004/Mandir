@@ -3,18 +3,18 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const GALLERY_IMAGES = [
-  { src: "/images/20240918_103805.jpg.jpeg", title: "मंदिर निर्माण दृश्य", category: "construction" },
-  { src: "/images/20240918_103811.jpg.jpeg", title: "गर्भगृह बांधकाम", category: "construction" },
-  { src: "/images/20240918_103815.jpg.jpeg", title: "शिखर उभारणी", category: "construction" },
-  { src: "/images/20240918_103819.jpg.jpeg", title: "सभामंडप प्रगती", category: "construction" },
-  { src: "/images/IMG-20240723-WA0028.jpg.jpeg", title: "धार्मिक विधी व पूजन", category: "puja" },
-  { src: "/images/IMG-20240723-WA0029.jpg.jpeg", title: "स्थानिक भाविक सहभाग", category: "events" },
-  { src: "/images/IMG-20240723-WA0030.jpg.jpeg", title: "शिला पूजन सोहळा", category: "puja" },
-  { src: "/images/IMG-20240723-WA0031.jpg.jpeg", title: "श्रमदान सेवा", category: "events" },
-  { src: "/images/IMG-20240723-WA0032.jpg.jpeg", title: "अन्नदान महाप्रसाद", category: "events" },
-  { src: "/images/IMG-20240723-WA0033.jpg.jpeg", title: "गोशाळा संकल्प", category: "events" },
-  { src: "/images/IMG-20240723-WA0034.jpg.jpeg", title: "कीर्तन व हरिनाम", category: "puja" },
-  { src: "/images/IMG-20240723-WA0037.jpg.jpeg", title: "मंदिर परिसर", category: "construction" },
+  { src: "/images/20240918_103805.jpg.webp", title: "मंदिर निर्माण दृश्य", category: "construction" },
+  { src: "/images/20240918_103811.jpg.webp", title: "गर्भगृह बांधकाम", category: "construction" },
+  { src: "/images/20240918_103815.jpg.webp", title: "शिखर उभारणी", category: "construction" },
+  { src: "/images/20240918_103819.jpg.webp", title: "सभामंडप प्रगती", category: "construction" },
+  { src: "/images/IMG-20240723-WA0028.jpg.webp", title: "धार्मिक विधी व पूजन", category: "puja" },
+  { src: "/images/IMG-20240723-WA0029.jpg.webp", title: "स्थानिक भाविक सहभाग", category: "events" },
+  { src: "/images/IMG-20240723-WA0030.jpg.webp", title: "शिला पूजन सोहळा", category: "puja" },
+  { src: "/images/IMG-20240723-WA0031.jpg.webp", title: "श्रमदान सेवा", category: "events" },
+  { src: "/images/IMG-20240723-WA0032.jpg.webp", title: "अन्नदान महाप्रसाद", category: "events" },
+  { src: "/images/IMG-20240723-WA0033.jpg.webp", title: "गोशाळा संकल्प", category: "events" },
+  { src: "/images/IMG-20240723-WA0034.jpg.webp", title: "कीर्तन व हरिनाम", category: "puja" },
+  { src: "/images/IMG-20240723-WA0037.jpg.webp", title: "मंदिर परिसर", category: "construction" },
 ];
 
 const translations = {
@@ -403,7 +403,7 @@ export default function Home() {
         <div className="nav-wrap">
           <a href="#hero" className="brand">
             <img
-              src="/assets/logo.jpg"
+              src="/assets/logo.webp"
               alt="श्री राधाकृष्ण प्रेम मंदिर संस्थान"
               className="brand-logo"
               decoding="async"
@@ -494,7 +494,7 @@ export default function Home() {
         <div className="hero-inner">
           <p className="eyebrow">{t.hero.eyebrow}</p>
           <img
-            src="/assets/logo-hero.jpg"
+            src="/assets/logo-hero.webp"
             alt="मंदिर बोधचिन्ह"
             className="hero-logo"
             decoding="async"
@@ -575,7 +575,7 @@ export default function Home() {
           <div className="col-art">
             <div className="art-frame">
               <img
-                src="/assets/logo.jpg"
+                src="/assets/logo.webp"
                 alt="मंदिर संस्थान"
                 className="art-logo"
                 decoding="async"
@@ -996,9 +996,10 @@ export default function Home() {
       <footer className="site-footer">
         <div className="container footer-inner">
           <img
-            src="/assets/logo.jpg"
+            src="/assets/logo.webp"
             alt="मंदिर बोधचिन्ह"
             className="footer-logo"
+            decoding="async"
           />
           <p className="footer-mr">|| श्री राधाकृष्ण प्रेम मंदिर संस्थान ||</p>
           <p className="footer-sub">{t.footer.sub}</p>

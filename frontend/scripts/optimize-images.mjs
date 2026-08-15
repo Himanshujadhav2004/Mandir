@@ -8,7 +8,7 @@ const directories = [
 ];
 
 async function optimize() {
-  console.log('Starting image compression & optimization...');
+  console.log('Converting and compressing images to high-performance WebP...');
   let totalSaved = 0;
 
   for (const dir of directories) {
@@ -20,35 +20,29 @@ async function optimize() {
       const stat = fs.statSync(filePath);
 
       if (stat.isFile() && /\.(jpg|jpeg|png)$/i.test(file)) {
-        // If file is larger than 300KB, resize and compress it
-        if (stat.size > 300 * 1024) {
-          const originalSizeMB = (stat.size / (1024 * 1024)).toFixed(2);
-          const tempPath = filePath + '.tmp';
+        const originalSizeKB = (stat.size / 1024).toFixed(1);
+        const webpFilename = file.replace(/\.(jpg|jpeg|png)+$/i, '') + '.webp';
+        const webpPath = path.join(dir, webpFilename);
 
-          try {
-            await sharp(filePath)
-              .resize({ width: 1400, height: 1400, fit: 'inside', withoutEnlargement: true })
-              .jpeg({ quality: 80, progressive: true })
-              .toFile(tempPath);
+        try {
+          await sharp(filePath)
+            .resize({ width: 1000, height: 1000, fit: 'inside', withoutEnlargement: true })
+            .webp({ quality: 75, effort: 6 })
+            .toFile(webpPath);
 
-            const newStat = fs.statSync(tempPath);
-            const newSizeKB = (newStat.size / 1024).toFixed(1);
+          const newStat = fs.statSync(webpPath);
+          const newSizeKB = (newStat.size / 1024).toFixed(1);
 
-            fs.unlinkSync(filePath);
-            fs.renameSync(tempPath, filePath);
-
-            console.log(`Optimized ${file}: ${originalSizeMB} MB -> ${newSizeKB} KB`);
-            totalSaved += (stat.size - newStat.size);
-          } catch (err) {
-            console.error(`Failed to optimize ${file}:`, err.message);
-            if (fs.existsSync(tempPath)) fs.unlinkSync(tempPath);
-          }
+          console.log(`Converted ${file}: ${originalSizeKB} KB -> ${newSizeKB} KB (${webpFilename})`);
+          totalSaved += (stat.size - newStat.size);
+        } catch (err) {
+          console.error(`Failed to convert ${file}:`, err.message);
         }
       }
     }
   }
 
-  console.log(`Optimization complete! Total disk space saved: ${(totalSaved / (1024 * 1024)).toFixed(2)} MB`);
+  console.log(`WebP conversion complete! Total saved: ${(totalSaved / (1024 * 1024)).toFixed(2)} MB`);
 }
 
 optimize();
